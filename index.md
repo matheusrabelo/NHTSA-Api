@@ -1,5 +1,8 @@
 # NHTSA API
 
+## Usage
+Copy the `.env.example` file to `.env`, run the install script and then some run script.
+
 ## Install
 
 `$ npm install`

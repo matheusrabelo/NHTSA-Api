@@ -21,12 +21,14 @@
   },
   "homepage": "https://github.com/matheusrabelo/nhtsa-api#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
     "dotenv": "^6.0.0",
     "http-status": "^1.2.0",
     "koa": "^2.5.1",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
     "pm2": "^3.0.0"
   },
   "devDependencies": {
