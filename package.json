@@ -1,0 +1,42 @@
+{
+  "name": "nhtsa-api",
+  "version": "1.0.0",
+  "description": "nhtsa proxy api",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon devServer.js",
+    "debug": "nodemon --inspect=30001 devServer.js",
+    "build": "babel src -d build",
+    "lint": "eslint src/**/*.js",
+    "pm2": "pm2 start server.js",
+    "server": "npm run build && npm run pm2"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "Matheus Freire Rabelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusrabelo/nhtsa-api/issues"
+  },
+  "homepage": "https://github.com/matheusrabelo/nhtsa-api#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "dotenv": "^6.0.0",
+    "http-status": "^1.2.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "pm2": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "nodemon": "^1.17.5"
+  }
+}
