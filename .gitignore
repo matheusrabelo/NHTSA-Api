@@ -1,6 +1,7 @@
 node_modules/
 converage/
 build/
+public/
 roadmap.md
 .env
 *.test.js

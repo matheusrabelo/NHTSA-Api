@@ -21,5 +21,7 @@ Copy the `.env.example` file to `.env`, run the install script and then some run
 
 `$ npm run lint` - Run linter
 
+`$ npm run docs` - Generate the html documention
+
 ## Author
 Matheus Freire Rabelo
