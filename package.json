@@ -10,6 +10,7 @@
     "lint": "eslint src/**/*.js",
     "pm2": "pm2 start server.js",
     "server": "npm run build && npm run pm2",
+    "test": "jest",
     "docs": "aglio -i documentation.md -o public/index.html"
   },
   "keywords": [
@@ -43,6 +44,7 @@
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
+    "jest": "^23.3.0",
     "nodemon": "^1.17.5"
   }
 }
