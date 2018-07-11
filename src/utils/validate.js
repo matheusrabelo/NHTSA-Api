@@ -24,8 +24,6 @@ const requestValidate = ({ schema, ctx }) => {
         ctx.body = {
             Count: 0,
             Results: [],
-            Error: 'Request validation error',
-            Validations: validations,
         };
         logger.log('Request validate error', { validations });
         return false;
