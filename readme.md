@@ -1,5 +1,7 @@
 # NHTSA API
 
+## [API documentation](https://matheusrabelo.github.io/NHTSA-Api/public/)
+
 ## Usage
 Copy the `.env.example` file to `.env`, run the install script and then some run script.
 
@@ -23,7 +25,7 @@ Copy the `.env.example` file to `.env`, run the install script and then some run
 
 `$ npm run test` - Run tests
 
-`$ npm run docs` - Generate the html documention
+`$ npm run docs` - Generate the html documentation
 
 ## Author
 Matheus Freire Rabelo
