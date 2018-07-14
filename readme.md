@@ -27,5 +27,16 @@ Copy the `.env.example` file to `.env`, run the install script and then some run
 
 `$ npm run docs` - Generate the html documentation
 
+## Docker
+Build
+```
+$ docker build . -t nhtsa-api:latest
+```
+
+Run
+```
+$ docker run -p 8888:8888 nhtsa-api
+```
+
 ## Author
 Matheus Freire Rabelo
